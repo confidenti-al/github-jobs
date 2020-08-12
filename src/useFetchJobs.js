@@ -39,10 +39,10 @@ export default function useFetchJobs(params, page) {
         cancelToken: cancelToken.token,
         params: { markdown: true, page: page, ...params },
       })
-      .then((res) => {
+      .then(res => {
         dispatch({ type: ACTIONS.GET_DATA, payload: { jobs: res.data } });
       })
-      .catch((e) => {
+      .catch(e => {
         if (axios.isCancel(e)) return;
         dispatch({ type: ACTIONS.ERROR, payload: { error: e } });
       });
