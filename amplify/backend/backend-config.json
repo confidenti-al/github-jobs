@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"githubjobs7e03164b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

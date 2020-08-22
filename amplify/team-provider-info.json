@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-github-jobs-dev-133945-authRole",
+            "UnauthRoleArn": "arn:aws:iam::715504511712:role/amplify-github-jobs-dev-133945-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::715504511712:role/amplify-github-jobs-dev-133945-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-github-jobs-dev-133945-deployment",
+            "UnauthRoleName": "amplify-github-jobs-dev-133945-unauthRole",
+            "StackName": "amplify-github-jobs-dev-133945",
+            "StackId": "arn:aws:cloudformation:us-west-2:715504511712:stack/amplify-github-jobs-dev-133945/7ae67230-e49e-11ea-b5ac-02b0d23de91c",
+            "AmplifyAppId": "do2wjwaubqho6"
+        },
+        "categories": {
+            "auth": {
+                "githubjobs7e03164b": {}
+            }
+        }
+    }
+}

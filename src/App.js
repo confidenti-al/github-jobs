@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import Job from './Job';
 import JobsPagination from './JobsPagination';
 import SearchForm from './SearchForm';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 function App() {
   const [params, setParams] = useState({});
@@ -34,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
